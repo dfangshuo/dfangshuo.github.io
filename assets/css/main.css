@@ -2265,3 +2265,16 @@
 		.blog: hover{
 			background: background: url('images/cover0.jpg');;
 		}
+
+		.cali-name {
+			position: relative;
+			top:0px;
+			height:150px;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.cent {
+			position: relative;
+			top: 40px;
+		}

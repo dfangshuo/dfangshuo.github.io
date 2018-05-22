@@ -2407,3 +2407,9 @@ ul.default {
 		margin-bottom: 21px;
 	}
 
+	.signature {
+		position: relative;
+		top: 20px;
+		/*left: 600px;*/
+		height: 70px;
+	}
