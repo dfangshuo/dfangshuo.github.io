@@ -48,7 +48,7 @@
 										
 										<h2 class = "minor-title">Puzzle Solver</h2>
 
-										<p class = "minor-label">Puzzle Solver is a rudimentary artificial intelligence that cracks puzzles
+										<p class = "minor-label">A rudimentary artificial intelligence that cracks puzzles
 										</p>
 
 									</div>									
@@ -91,10 +91,10 @@
 											<br/>
 
 											<p> 
-											Written entirely in Java, Puzzle Solver uses Best-First Search and the <a class = "no-underline" href="https://en.wikipedia.org/wiki/A*_search_algorithm">A* Search Algorithm</a>. Though this individual project was one of our assignments for CS 61B (Berkeley's data structures class), I included it because I thought the idea behind it was really, really cool.
+											Written entirely in Java, Puzzle Solver uses Best-First Search and the <a class = "no-underline" href="https://en.wikipedia.org/wiki/A*_search_algorithm">A* Search Algorithm</a>.
 											<br />
 											<br />
-											Essentially, the Puzzle Solver implementation uses a <strong>Priority Queue</strong>, implemented as a <Strong>Heap</Strong>, and the idea is that for every puzzle state that's possible, there's an equivalent <strong>world-state</strong>: a wrapper class contains the puzzle state together with salient information, such as what world-states came before it and what comes after. 
+											Essentially, this implementation uses a <strong>Priority Queue</strong>, and the idea is that for every puzzle state that's possible, there's an equivalent <strong>world-state</strong>: a wrapper class contains the puzzle state together with salient information, such as what world-states came before it and what comes after. 
 											<br />
 											<br />
 											These world-states are enqueued onto the Priority Queue, and dequeued based on a <strong>heuristic</strong> which represents the distance between this world-state and the goal state. Distance, in this case, refers to the number of moves needed to get to the final state.
