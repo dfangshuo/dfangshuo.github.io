@@ -2283,18 +2283,20 @@
 			position: relative;
 			top: 27px;
 		}
-/* 
-	.down-arrow {
-		color: #999 !important;
-		font-size: 40px;
-		padding-left: 7em;
-		padding-right: 8em;	
-	}
 
-	.down-arrow:hover {
-		color: #171717 !important;
-	} 
-*/
+.down-arrow {
+	color: #999 !important;
+	font-size: 40px;
+	padding-left: 7em;
+	padding-right: 8em;	
+	margin-top: 2em;
+	/* background-color: red; */
+}
+
+.down-arrow:hover {
+	color: #171717 !important;
+} 
+
 
 ul.title-tiles {
 	cursor: default;
@@ -2370,7 +2372,7 @@ ul.title-tiles {
 				background-color: #FF6501;
 			}
 
-			ul.title-tiles li a.fa-medium {
+			ul.title-tiles li a.fa-pencil {
 				background-color: #000;
 			}
 
