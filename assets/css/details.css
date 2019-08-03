@@ -1618,7 +1618,7 @@ ul.default {
 					background-color: #fff;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: #2E2E2E;
 					display: block;
 					font-size: 26px;
 					height: 40px;
@@ -1631,7 +1631,7 @@ ul.default {
 				}
 
 				ul.topsocial li a.fa-file-code-o {
-					background-color: #2DAAE4;
+					background-color: #3C5A98;
 				}
 				
 				ul.topsocial li a.fa-twitter {
@@ -1676,7 +1676,6 @@ ul.default {
 
 				ul.topsocial li a.fa-instagram {
 					background-color: #C4376B;
-					/*background-color: #E0D7C8;*/
 				}
 
 				ul.topsocial li a.fa-foursquare {
@@ -1713,6 +1712,7 @@ ul.default {
 
 					ul.topsocial li a:hover:before {
 						background-color: transparent;
+						color: white;
 					}
 
 	ul.actions li {
