@@ -1353,7 +1353,7 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #347FC4;
+		background-color: #274690;
 	}
 
 		input[type="button"]:hover,
@@ -1361,7 +1361,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #468AC9;
+			background-color: #3A569A;
 			color: #fff !important;
 		}
 
@@ -2167,6 +2167,11 @@
 	}
 
 	.timeframe {
+		margin: 0px;
+		font-size: 15px;
+	}
+
+	.top-card-text {
 		margin: 0px;
 	}
 
